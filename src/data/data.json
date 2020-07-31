@@ -1,0 +1,15 @@
+[
+  {
+    "restaurant-name": "olay's hawaii",
+    "intro": "One of the best reviewed Thai restaurants on Yelp! Come enjoy Authentic Thai cuisine in our beautiful dining room or our stunning outdoor patio. We also offer takeout and delivery! Honolulu's Best Thai Restaurant!",
+    "copyright": "Copyright 2020 olay's thai and lao cuisine",
+    "logo": "../images/icon.png",
+    "hours": ["Daily 9:00am - 9:00pm"],
+    "phone": "(808) 536-5300",
+    "street": "66 N Hotel St",
+    "city": "Honolulu, HI 96817",
+    "facebook": "https://www.facebook.com/olaysthailaocuisine/?ref=py_c",
+    "instagram": "https://www.instagram.com/olays_thai_lao_cuisine/",
+    "menu": "https://www.grindztogo.com/single.php/order/restaurant/olays-thai---lao-cuisine/29?takeout=1"
+  }
+]
