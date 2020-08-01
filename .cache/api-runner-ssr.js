@@ -9,7 +9,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/designdeskad/Gatsby/olaysthai/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"51cd3ecb9088ab5040fee1b683bcb84a"},
+      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"62f01d57f09bf6b9b067d73a94d9b6f7"},
     },{
       plugin: require('/Users/designdeskad/Gatsby/olaysthai/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":[{"family":"Poppins","variants":["light","bold"]},{"family":"Open Sans","variants":["400","700"]}]},

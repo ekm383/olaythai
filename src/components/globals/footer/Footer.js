@@ -1,7 +1,7 @@
-import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import styled from "styled-components"
-import { FaInstagram, FaFacebook } from "react-icons/fa"
+import React from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
+import styled from 'styled-components'
+import { FaInstagram, FaFacebook, FaYelp } from 'react-icons/fa'
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -13,21 +13,22 @@ const Footer = () => {
         city
         instagram
         facebook
+        yelp
       }
     }
   `)
-  const { hours, phone, street, city, instagram, facebook } = data.footer
+  const { hours, phone, street, city, instagram, facebook, yelp } = data.footer
   return (
-    <FooterWrapper id="information">
-      <div className="box contact">
+    <FooterWrapper id='information'>
+      <div className='box contact'>
         <h4>Contact Information</h4>
-        <p className="phone">Phone: {phone}</p>
+        <p className='phone'>Phone: {phone}</p>
         <p>{street}</p>
         <p>{city}</p>
         <ul>
           {hours.map((value, id) => {
             return (
-              <li className="hours" key={id}>
+              <li className='hours' key={id}>
                 {value}
               </li>
             )
@@ -39,6 +40,9 @@ const Footer = () => {
           </a>
           <a href={facebook}>
             <FaFacebook />
+          </a>
+          <a href={yelp}>
+            <FaYelp />
           </a>
         </div>
       </div>
